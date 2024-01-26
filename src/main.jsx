@@ -23,7 +23,7 @@ const routes = createBrowserRouter([
   },
   {
     path: '*',
-    element: <div>404 Not Found</div>
+    errorElement: <div>404 Not Found</div>
   }
 ])
 

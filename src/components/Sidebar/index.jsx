@@ -17,15 +17,15 @@ const Sidebar = () => {
   return (
     <div>
          {/* Sidebar */}
-      <div className={`sidebar fixed top-0 bottom-0 lg:left-0 p-2 w-[150px] overflow-y-auto text-right ${isSidebarOpen ? 'bg-purple-700' : 'hidden'}`}>
+      <div className={`sidebar fixed top-0 bottom-0 lg:left-0 p-2 w-[150px] overflow-y-auto text-right ${isSidebarOpen ? 'bg-cyan-100' : 'hidden'}`}>
         
         {/* Toggle button inside sidebar when open */}
         {isSidebarOpen && (
           <span
             className="text-white text-2xl z-50 top-0 button-style mt-3 cursor-pointer hover:bg-blue-600 rounded-full py-2 px-4"
-            onClick={toggleSidebar}
+            // onClick={toggleSidebar}
           >
-            {"x"}
+            {/* {"x"} */}
           </span>
         )}
 
@@ -42,17 +42,17 @@ const Sidebar = () => {
         </div> */}
 
       {/* My ABIE link */}
-      <div className=" flex items-center button-style mt-3 cursor-pointer hover:bg-blue-600 text-white rounded-full py-2 px-4">
+      <div className=" flex items-center button-style mt-3 cursor-pointer hover:bg-blue-600 text-2xl text-blue-700 rounded-full py-2 px-4">
           <span className="font-bold">My ABIE</span>
         </div>
 
         {/* ABIE/s */}
-        <div className=" flex items-center button-style mt-3 cursor-pointer hover:bg-blue-600 text-white rounded-full py-2 px-4">
+        <div className=" flex items-center button-style mt-3 cursor-pointer hover:bg-blue-600 text-2xl text-blue-700 rounded-full py-2 px-4">
           <span className="font-bold">ABIE/s</span>
         </div>
 
         {/* Upload */}
-        <div className=" flex items-center button-style mt-3 cursor-pointer hover:bg-blue-600 text-white rounded-full py-2 px-4">
+        <div className=" flex items-center button-style mt-3 cursor-pointer hover:bg-blue-600 text-2xl text-blue-700 rounded-full py-2 px-4">
           <span className="font-bold">Upload</span>
         </div>
 
@@ -66,7 +66,7 @@ const Sidebar = () => {
 {/* Toggle button outside sidebar when closed */}
 {!isSidebarOpen && (
   <span
-    className="sidebar absolute text-white top-2 left-0 cursor-pointer z-20 bg-purple-700 p-0 rounded-md"
+    className="sidebar absolute text-2xl text-blue-700 top-2 left-0 cursor-pointer z-20 bg-purple-700 p-0 rounded-md"
     onClick={toggleSidebar}
   >
     {"Menu"}
