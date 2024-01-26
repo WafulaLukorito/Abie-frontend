@@ -20,16 +20,16 @@ const Dashboard = () => {
                 <main className={`flex-1 overflow-x-hidden overflow-y-auto ${isSidebarOpen ? 'ml-[150px]' : 'ml-0'}`}>
                 <div className="container mx-auto px-6 py-8">
                  <table className="min-w-full leading-normal">
-                            <thead className="sticky top-0">
+                            <thead className="sticky top-0 bg-white">
                                 <tr>
-                                    <th className="px-5 py-3 border-b-2 border-gray-300 text-left text-xs font-bold text-gray-600 uppercase tracking-wider">Status</th>
-                                    <th className="px-5 py-3 border-b-2 border-gray-300 text-left text-xs font-bold text-gray-600 uppercase tracking-wider">File Number</th>
-                                    <th className="px-5 py-3 border-b-2 border-gray-300 text-left text-xs font-bold text-gray-600 uppercase tracking-wider">Client</th>
-                                    <th className="px-5 py-3 border-b-2 border-gray-300 text-left text-xs font-bold text-gray-600 uppercase tracking-wider">Address</th>
-                                    <th className="px-5 py-3 border-b-2 border-gray-300 text-left text-xs font-bold text-gray-600 uppercase tracking-wider">S/A/A</th>
-                                    <th className="px-5 py-3 border-b-2 border-gray-300 text-left text-xs font-bold text-gray-600 uppercase tracking-wider">Date Stamp</th>
-                                    <th className="px-5 py-3 border-b-2 border-gray-300 text-left text-xs font-bold text-gray-600 uppercase tracking-wider">Appraiser</th>
-                                    <th className="px-5 py-3 border-b-2 border-gray-300 text-left text-xs font-bold text-gray-600 uppercase tracking-wider">License</th>
+                                    <th className="px-5 py-3 border-b-2 border-gray-300 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Status</th>
+                                    <th className="px-5 py-3 border-b-2 border-gray-300 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">File Number</th>
+                                    <th className="px-5 py-3 border-b-2 border-gray-300 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Client</th>
+                                    <th className="px-5 py-3 border-b-2 border-gray-300 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Address</th>
+                                    <th className="px-5 py-3 border-b-2 border-gray-300 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">S/A/A</th>
+                                    <th className="px-5 py-3 border-b-2 border-gray-300 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Date Stamp</th>
+                                    <th className="px-5 py-3 border-b-2 border-gray-300 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Appraiser</th>
+                                    <th className="px-5 py-3 border-b-2 border-gray-300 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">License</th>
                                 </tr>
                             </thead>
                             <tbody>
