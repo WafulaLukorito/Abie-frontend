@@ -11,7 +11,7 @@ const Dashboard = () => {
     };
 
     return (
-        <div className="flex h-screen" style={{ backgroundColor: "#E2E8F0" }}>
+        <div className="flex h-screen" style={{ backgroundColor: "#1A2F52" }}>
             <Sidebar isOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />
             <div className="flex flex-col flex-1 overflow-hidden">
                 <NavBar />

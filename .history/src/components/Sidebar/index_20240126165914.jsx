@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 
-
 const Sidebar = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -10,9 +9,9 @@ const Sidebar = () => {
     setIsSidebarOpen(!isSidebarOpen);
   };
 
-  // const toggleDropdown = () => {
-  //   setIsDropdownOpen(!isDropdownOpen);
-  // };
+  const toggleDropdown = () => {
+    setIsDropdownOpen(!isDropdownOpen);
+  };
 
   return (
     <div>
@@ -66,10 +65,10 @@ const Sidebar = () => {
 {/* Toggle button outside sidebar when closed */}
 {!isSidebarOpen && (
   <span
-    className="sidebar absolute text-white top-2 left-0 cursor-pointer z-20 bg-purple-700 p-0 rounded-md"
+    className="sidebar absolute text-white text-4xl top-2 left-0 cursor-pointer z-20 bg-purple-700 p-0 rounded-md"
     onClick={toggleSidebar}
   >
-    {"Menu"}
+    {">>"}
   </span>
 )}
 </div>

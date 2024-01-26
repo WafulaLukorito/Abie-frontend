@@ -1,0 +1,82 @@
+[
+    {
+        "color": "red",
+        "file_num": "46031633",
+        "client": "Linda Johnson",
+        "address": "7503 Elm Road\nSpringfield,\nFL 67510",
+        "SAA": "2 Swaps\n4 Alerts\n1 Adjustment",
+        "date_stamp": "Jan 24 2024",
+        "appraiser": "Patty Sans",
+        "license": "23461752"
+    },
+    {
+        "color": "blue",
+        "file_num": "56541160",
+        "client": "Elizabeth Jones",
+        "address": "2572 Cedar Blvd\nFranklin,\nPA 43723",
+        "SAA": "2 Swaps\n4 Alerts\n1 Adjustment",
+        "date_stamp": "Jan 24 2024",
+        "appraiser": "Patty Sans",
+        "license": "10707104"
+    },
+    {
+        "color": "red",
+        "file_num": "91769971",
+        "client": "William Johnson",
+        "address": "7193 Maple Street\nClinton,\nPA 52279",
+        "SAA": "2 Swaps\n4 Alerts\n1 Adjustment",
+        "date_stamp": "Jan 24 2024",
+        "appraiser": "Patty Sans",
+        "license": "95534730"
+    },
+    {
+        "color": "red",
+        "file_num": "83763514",
+        "client": "Robert Johnson",
+        "address": "8965 Elm Road\nClinton,\nNY 81139",
+        "SAA": "2 Swaps\n4 Alerts\n1 Adjustment",
+        "date_stamp": "Jan 24 2024",
+        "appraiser": "Patty Sans",
+        "license": "63897475"
+    },
+    {
+        "color": "green",
+        "file_num": "64919234",
+        "client": "Linda Davis",
+        "address": "1867 Pine Lane\nClinton,\nFL 58494",
+        "SAA": "2 Swaps\n4 Alerts\n1 Adjustment",
+        "date_stamp": "Jan 24 2024",
+        "appraiser": "Patty Sans",
+        "license": "73154476"
+    },
+    {
+        "color": "green",
+        "file_num": "59057620",
+        "client": "Michael Rodriguez",
+        "address": "3173 Maple Street\nSpringfield,\nNY 79194",
+        "SAA": "2 Swaps\n4 Alerts\n1 Adjustment",
+        "date_stamp": "Jan 24 2024",
+        "appraiser": "Patty Sans",
+        "license": "97857475"
+    },
+    {
+        "color": "blue",
+        "file_num": "18184892",
+        "client": "Patricia Brown",
+        "address": "7449 Pine Lane\nGreenville,\nTX 73761",
+        "SAA": "2 Swaps\n4 Alerts\n1 Adjustment",
+        "date_stamp": "Jan 24 2024",
+        "appraiser": "Patty Sans",
+        "license": "21210081"
+    },
+    {
+        "color": "green",
+        "file_num": "38604736",
+        "client": "Patricia Johnson",
+        "address": "1511 Pine Lane\nSpringfield, \nCA 26949",
+        "SAA": "2 Swaps\n4 Alerts\n1 Adjustment",
+        "date_stamp": "Jan 24 2024",
+        "appraiser": "Patty Sans",
+        "license": "63797678"
+    }
+]

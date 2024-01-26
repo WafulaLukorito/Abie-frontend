@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 
-
 const Sidebar = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);

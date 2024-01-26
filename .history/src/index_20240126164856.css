@@ -10,5 +10,6 @@
 
 .sidebar {
   top: 6.5rem;
-  background: linear-gradient(to right, #7E22CE, #2193b0);
+  background: linear-gradient(to right, #7E22CE, #C5F1FD);
+  /* #2193b0 */
 }
