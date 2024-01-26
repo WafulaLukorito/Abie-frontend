@@ -20,7 +20,7 @@ const Dashboard = () => {
                 <main className={`flex-1 overflow-x-hidden overflow-y-auto ${isSidebarOpen ? 'ml-[150px]' : 'ml-0'}`}>
                 <div className="container mx-auto px-6 py-8">
                  <table className="min-w-full leading-normal">
-                            <thead className="sticky top-0 bg-white
+                            <thead className="sticky top-0 background: 'rgba(0, 255, 255, 1)',
                             ">
                                 <tr>
                                     <th className="px-5 py-3 border-b-2 border-gray-300 text-left text-xs font-bold text-gray-600 uppercase tracking-wider">Status</th>
